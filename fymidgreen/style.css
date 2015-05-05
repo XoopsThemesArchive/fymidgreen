@@ -1,0 +1,95 @@
+/*-------------------------------------------------*/
+/* FY MidGreen Xoops2 Style Sheet Version:1.00 */
+/* Edited by theme4u (http://theme4u.simnext.com/) */
+/*-------------------------------------------------*/
+/* The content of the posts (body of text) */
+body{background-image: url(./imagens/bground.gif);color:#555555;margin:0px;padding:0;font:12px Verdana,Arial,Helvetica,sans-serif;}
+.bgtitle{background-image : url(./imagens/bg_titlebk.gif);}
+.logobk{background-color : #315129;}
+.forumline{background: #f7f7f7;border: 1px solid #315129;}
+.headline{background-image : url(./imagens/bg_cell1.gif);height : 20px;font:12px Verdana,Arial,Helvetica,sans-serif;}
+/* General page style */
+a:link,a:active,a:visited,a.postlink{color:#315129;text-decoration:none}
+a:hover{color:#ff9900;text-decoration:none}
+/* Xoops Main Style Blocks */
+table{width:100%;}
+fieldset {border:1px solid #555555;padding:5px;}
+ul { margin: 2px; padding: 2px; list-style: decimal inside; text-align: left;}
+li { margin-left: 2px; list-style: square inside; color: #555555}
+hr {border: 1px solid #555555;border-top-width:1px;height:0px}
+/* Xoops LEFT Column Blocks Style */
+td#leftcolumn {width: 160px; font-size:12px;}
+td#leftcolumn th {font:12px Verdana,Arial,Helvetica,sans-serif;font-weight : lighter;background-image : url(./imagens/bg_cell2.gif);color : white;letter-spacing : 1px;font-family : Verdana,sans-serif,Tahoma;}
+/* Xoops CENTER Column Blocks Style */
+td#centerCcolumn {padding: 5px;}
+td#centercolumn th {font:12px Verdana,Arial,Helvetica,sans-serif;font-weight : lighter;background-image : url(./imagens/bg_cell2.gif);color : white;letter-spacing : 1px;font-family : Verdana,sans-serif,Tahoma;padding:3px;}
+td#centerCcolumn legend.blockTitle {padding: 3px; color: #8e8e8e; font-weight: bold; margin-top: 0px; margin-right: 0px; margin-left: 0px;}
+td#centerCcolumn div.blockContent {/*border-left: 1px solid #cccccc; border-right: 1px solid #cccccc; border-bottom: 1px solid #dddddd; */padding: 3px; margin-right: 0px; margin-left: 0px; margin-bottom: 2px; line-height: 120%;}
+/* Xoops CENTER LEFT Column Blocks Style */
+td#centerLcolumn {width: 50%; padding: 0px 3px 0px 0px;}
+td#centerLcolumn legend.blockTitle {padding: 3px; color: #8e8e8e; font-weight: bold; margin-top: 0px;}
+td#centerLcolumn div.blockContent {/*border-left: 1px solid #cccccc; border-right: 1px solid #cccccc; border-bottom: 1px solid #dddddd; */padding: 3px; margin-left: 3px; margin-right: 2px; margin-bottom: 2px; line-height: 120%;}
+/* Xoops CENTER RIGHT Column Blocks Style */
+td#centerRcolumn {width: 50%; padding: 0px 3px 0px 0px;}
+td#centerRcolumn legend.blockTitle {padding: 3px; color: #8e8e8e; font-weight: bold; margin-top: 0px;}
+td#centerRcolumn div.blockContent {/*border-left: 1px solid #cccccc; border-right: 1px solid #cccccc; border-bottom: 1px solid #dddddd; */padding: 3px; margin-left: 2px; margin-right: 3px; margin-bottom: 2px; line-height: 120%;}
+div#content {text-align: left; padding: 8px;}
+/* Xoops RIGHT Column Blocks Style */
+td#rightcolumn {width: 160px; font-size:12px;}
+td#rightcolumn th {font:12px Verdana,Arial,Helvetica,sans-serif;font-weight : lighter;background-image : url(./imagens/bg_cell2.gif);color : white;letter-spacing : 1px;font-family : Verdana,sans-serif,Tahoma;}
+/* Xoops MainMenu Style */
+td#mainmenu a {text-decoration:none;border:#f7f7f7 1px solid;color:#555555;}
+td#mainmenu a:hover {color:#555555;border:#555555 1px solid;background-color:#f7f7f7;}
+td#mainmenu a.menuTop {}
+td#mainmenu a.menuMain {}
+td#mainmenu a.menuSub {}
+/* Xoops UserMenu Style */
+td#usermenu a {text-decoration:none;border:#f7f7f7 1px solid;color:#555555;}
+td#usermenu a:hover {color:#555555;border:#555555 1px solid;background-color:#f7f7f7;}
+td#usermenu a.menuTop {}
+td#usermenu a.highlight {color:#FFFFFD;border:#555555 1px solid;background-color:#f7f7f7;}
+/* Xoops News Module Style */
+.item {border: 1px solid #555555;}
+.itemHead {padding: 3px; background-color: #f0f0f0; color: #555555;}
+.itemInfo {text-align: right; padding: 3px; background-color: #f7f7f7}
+.itemTitle a {font-size: 130%; font-weight: bold; font-variant: small-caps; color: #555555; background-color: transparent;}
+.itemPoster {font-size: 90%; font-style:italic;}
+.itemPostDate {font-size: 90%; font-style:italic;}
+.itemStats {font-size: 90%; font-style:italic;}
+.itemBody {padding-left: 5px;}
+.itemText {margin-top: 5px; margin-bottom: 5px; line-height: 1.5em;}
+.itemText:first-letter {font-size: 133%; font-weight: bold;}
+.itemFoot {text-align: right; padding: 3px; background-color: #f7f7f7}
+.itemAdminLink {font-size: 90%;}
+.itemPermaLink {font-size: 90%;}
+/* Xoops Newbb Style */
+.outer { background-color: #555555; border: 0px #555555 solid;}
+.head { background-color: #f7f7f7; padding: 5px; font-weight: bold; height:18px;}
+.even { background-color: #f0f0f0; padding: 5px; }
+.odd { background-color: #f7f7f7; padding: 5px; vertical-align:top; }
+.odd2 { background-color: #f7f7f7; padding: 5px; }
+.foot {background-color: #f0f0f0; padding: 5px; font-weight: bold; height:23px;}
+tr.even td {background-color: #f0f0f0; padding: 5px;}
+tr.odd td {background-color: #f7f7f7; padding: 5px;}
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #555555; font-weight:bold; border: 1px solid #555555; background-color: #f7f7f7; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #555555; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller}
+.comDateCaption {font-weight: bold; font-style: normal;}
+/* Form Style */
+input,textarea {background:#f7f7f7;font-size:12px;color:#555555;
+border:1px solid; border-color:#555555}
+select {color:#555555;background-color : #f7f7f7;}
+/* Quote blocks */
+div.xoopsQuote{background:#f7f7f7;border:1px solid #555555;color:#555555;
+font-size:11px;line-height:125%;padding;0px;}
+/* Code blocks */
+div.xoopsCode{background:#f7f7f7;border:1px solid #555555;color:#555555;
+font:12px Courier,"Courier New",sans-serif;padding:5px}
